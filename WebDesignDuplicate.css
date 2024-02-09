@@ -1,0 +1,192 @@
+
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    color: white; 
+    background-color: black;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-underline-position: below;
+}
+
+.navbar ul li a:hover {
+    background-color: black;  
+    color: white; 
+}
+
+
+h1, h2, h3 {
+    color: white; 
+    background-color: black;
+    margin: 20px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    color: white;
+    background-color: black;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+th {
+   
+    color: white;
+    background-color: black;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: calc(33.33% - 10px);
+    background-color: black;
+    border: 1px solid #ccc;
+    color: white;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    color: white;
+    background-color: black;
+}
+
+.card-content {
+    padding: auto;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.card-description {
+    margin-bottom: 10px;
+    color: white;
+    background-color: black;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+.youtube-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.youtube-video {
+    flex: 0 0 calc(50% - 10px); 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    background-color: black;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 200px; 
+    border: none; 
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+.container-fluid {
+    background-color: black;
+    color: white;
+}
+.li{
+    background-color: black;
+    color: white;
+
+}
